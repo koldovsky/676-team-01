@@ -1,5 +1,2 @@
 @import 'common.css';
-@import url("css/common.css");
-@import url("css/why-choose-us.css");
-
-
+@import 'whychooseus.css';
