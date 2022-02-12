@@ -1,5 +1,7 @@
 .why-choose-us-main {
     background-color: white;
+    margin: auto;
+    max-width: 1000px;
 }
 .why-choose-us-collections {
     display: flex;
