@@ -1,0 +1,51 @@
+.why-choose-us-main {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.why-choose-us-collections {
+    display: flex;
+    height: 375px;
+    width: 1200px;
+    justify-content: space-between;
+}
+.new-arrivals {
+    background-image: url(../img/new-arrivals-block-picture.svg);
+}
+.trainers {
+    background-image: url(../img/trainers-block-picture.webp);
+}
+.hot_sale {
+    background-image: url(../img/hot-sale-block-picture.webp);
+}
+.why-choose-us {
+    text-align: center;
+    font-weight: 400;
+}
+.why-choose-us-shipping-return-materials-payment {
+    display: flex;
+}
+.free-shipping {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid #e0e0e0;
+}
+.easy-return {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid #e0e0e0;
+}
+.eco-materials {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid #e0e0e0;
+}
+.payment-methods {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid #e0e0e0;
+}
