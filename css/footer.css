@@ -1,12 +1,7 @@
-:root {
-    --text-color: red;
-    --texting-color: black;
-    --text-email: rgb(104, 103, 103);
-}
 .email-box-background-img {
     background-image: url(../img/footer-background-address-bar.webp);
-    height: 200px;
-    width: 100%;
+    background-position: 50%;
+    margin-top: 50px;
     
 }
 .email-box-img {
@@ -19,7 +14,7 @@
     font-size: 25px;
 }
 .email-box-texting {
-    color: var(--texting-color);
+    color: var(--block-color);
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -31,4 +26,8 @@
 .map-box-tel-email {
     text-decoration: none;
     color: var(--text-email);
+}
+.footer-social-icons {
+    width: 25px;
+    height: 25px;
 }
