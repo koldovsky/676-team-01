@@ -1,0 +1,34 @@
+:root {
+    --text-color: red;
+    --texting-color: black;
+    --text-email: rgb(104, 103, 103);
+}
+.email-box-background-img {
+    background-image: url(../img/footer-background-address-bar.webp);
+    height: 200px;
+    width: 100%;
+    
+}
+.email-box-img {
+    width: 60px;
+}
+.email-box-text {
+    color: var(--text-color);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.email-box-texting {
+    color: var(--texting-color);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.email-box-information {
+    display: flex;
+
+}
+.map-box-tel-email {
+    text-decoration: none;
+    color: var(--text-email);
+}
