@@ -120,7 +120,7 @@ ul>li {
 
   .header__line-with-contacts {
     display: flex;
-    background-color: var(--text-color);
+    background-color: #d60307;
     padding: 16px 40px;
     font-weight: bold;
     justify-content: space-between;
