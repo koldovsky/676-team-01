@@ -53,3 +53,10 @@
     border: 1.5px solid #f40106;
     background-color: #222323;
 }
+
+.fa-brands:hover{
+    color: #222323;
+    background-color: #f40106; 
+    border: 1.5px solid #222323; 
+    transition-duration: 0.4s;
+}
