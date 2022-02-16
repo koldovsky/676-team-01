@@ -36,13 +36,20 @@
 
 }
 .aboutus_social_list_icons{
-    width: 45px;
-    height: 45px;
     margin-right: 25px;
-    border:2px solid #f40106;
+    font-size: 25px;
+    text-decoration: none;
+    color:#f40106;
+    
     
 }
 
 .aboutus_social_list{
     display: flex;
+}
+.fa-brands{
+    padding: 5px;
+    color: #f40106;
+    border: 1.5px solid #f40106;
+    background-color: #222323;
 }
