@@ -5,14 +5,19 @@
 }
 
 .aboutusimg{
-    width: 750px;}
-
-.aboutus_content{
-    
-    display: flex;
-    
-    
+    /*width: 750px;*/
 }
+
+
+@media (min-width:800px){
+    .aboutus_content{   
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+    }
+}
+
+
+
 
 .aboutus_container{
     padding-left: 50px;
