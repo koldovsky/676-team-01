@@ -19,4 +19,6 @@ img {
     color: #fff;
     --text-color: red;
     --text-email: rgb(104, 103, 103);
+    --email-window: rgb(216, 216, 216);
+    --window-color: white;
 }
