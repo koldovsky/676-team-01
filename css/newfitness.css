@@ -1,8 +1,26 @@
 .new_fitness_title{
-    color: red;
+    font-size: 124px;
+    color: #222323;
+    line-height: 1;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    text-transform: none;
 }
 
 .subtitle_newfintess{
-    color: red;
+    font-size: 24px;
+    line-height: 1.36;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    color: #a0a0a0;
 }
 
+.new-arrivals-doot{
+    font-family: 'Bebas Neue', cursive;
+    color: #f40106 !important;
+    font-size: 142px;
+    margin-right: 10px;
+}
+.button{
+    color: red;
+}
