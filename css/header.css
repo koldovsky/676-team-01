@@ -122,11 +122,14 @@ ul>li {
   .header__line-with-contacts {
     display: flex;
     background-color: #d60307;
+<<<<<<< HEAD
   }
 
   .header__line-with-contacts-wrapper {
     display: flex;
     width: 100%;
+=======
+>>>>>>> a0a6804b396b22be75024d2ecfa3c467b6bc5331
     padding: 16px 40px;
     font-weight: bold;
     font-size: 14px;
