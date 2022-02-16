@@ -2,6 +2,8 @@
     
     font-family: 'Bebas Neue', cursive;
     font-size: 52px;
+    margin-bottom: 20px;
+    font-weight: 400;
 }
 
 
@@ -22,6 +24,7 @@
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+    
     
    
 }
@@ -59,4 +62,29 @@
     background-color: #f40106; 
     border: 1.5px solid #222323; 
     transition-duration: 0.4s;
+}
+
+.lineaboutus{
+    border-bottom: 3px solid #f00;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.subtitleabout{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+}
+.informaboutparagraph{
+    font-size: 16px; 
+    line-height: 1.7; 
+    font-family: PT Sans,sans-serif; 
+    font-weight: 400;
+}
+
+.aboutus_forcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
