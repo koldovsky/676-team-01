@@ -127,6 +127,10 @@ ul>li {
   .header__line-with-contacts-wrapper {
     display: flex;
     width: 100%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 74891cd36c90b3343577639cd079f16ab9a5b51a
     padding: 16px 40px;
     font-weight: bold;
     font-size: 14px;
@@ -194,7 +198,10 @@ ul>li {
 }
 
 @media (min-width: 1200px) {
+<<<<<<< HEAD
   
+=======
+>>>>>>> 74891cd36c90b3343577639cd079f16ab9a5b51a
   .haeder__block-with-logo-wrapper {
     display: flex;
     justify-content: space-between;
