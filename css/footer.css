@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: 43%;
     margin-top: 50px;
-    max-width: 899px; 
+    max-width: 989px; 
     width: 100%;
     height: 100%;
 }
@@ -32,7 +32,6 @@
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    
 }
 .email-box-texting {
     color: var(--block-color);
@@ -67,31 +66,36 @@
     border: 10px solid var(--text-color);
     background-color: var(--text-color);
 }
-
+.map-box-bar {
+    width: 100%;
+    max-width: 989px;
+    height: 600px;
+}
 .map {
     position: absolute;
     display: block;
     height: 600px;
 	width: 100%;
  	z-index: 0;
-    max-width: 899px;
+    max-width: 989px;
 }
 .map-box-contact {
     position: relative;
-    top: 320px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    top: 20rem;
+    left: 7%;
     z-index: 1; 
-    width: 300px;
-	margin: 60px auto 0;
-	padding: 10px;
-	background: var(--window-color);
+    width: 85%;
+    background: var(--window-color);
 	height: auto;
 	color: var(--block-color);
     padding: 30px 70px;
-    max-width: 899;
+    text-align: center;
+}
+.map-box-contact__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
 }
 .map-box-contact__h3 {
     color: var(--block-color);
@@ -111,7 +115,6 @@
     color: var(--text-email);
     line-height: 25px;
 }
-
 .map-box-tel-email {
     text-decoration: none;
     color: var(--text-email);
@@ -120,9 +123,54 @@
     align-items: center;
     line-height: 30px;
 }   
+@media (min-width: 990px) {
+    .email-box-background-img {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;  
+        flex-direction: row;
+        padding: 0 45px;
+        background-position: 50%;
+    }
+    .email-box-information {
+        padding: 0;
+        padding-right: 25px;      
+    }
+    .email-box-information-text {
+        text-align: center;
+        line-height: 20px;
+    }
+    .email-box-send-input {
+        
+        height: 50px;
+        font-weight: bold;
+        width: 250px;
+    }
+    .email-box-send-button {
+        
+        width: 250px;
+        height: 50px;
+    }
+    .map-box-bar {
+        width: 100%;
+        max-width: 100%;
+    }
+    .map {
+        width: 100%;
+        max-width: 100%;
+    }
+    .map-box-contact {
+        width: fit-content;
+        max-width: 100%;
+        margin: 0;
+        padding: 90px 40px;
+        left: 65%;
+        top: 20%;
+    }
 
-
-.footer-social-icons {
-    width: 25px;
-    height: 15px;
 }
+
+
+        
