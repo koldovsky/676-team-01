@@ -25,7 +25,7 @@
 
 .dot {
     font-family: 'Bebas Neue', cursive;
-    color: #f40106 !important;
+    color: #f40106;
     line-height: 124px;
 
 }
@@ -42,14 +42,14 @@
     font-size: 42px;
     font-weight: bold;
     line-height: 71px;
-    color: #f40106 !important;
+    color: #f40106;
 }
 
 .full__price {
     font-size: 23px;
     font-weight: bold;
     line-height: 39px;
-    color: #fff !important;
+    color: #fff;
     text-decoration: line-through;
 
 }
@@ -99,3 +99,51 @@
     width: 100%;
     height: 100%;
   }
+
+  .countdown {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    order: -1;
+    width: 394px;
+    height: 83px;
+    align-items: flex-end;
+  
+
+}
+
+.countdown__item {
+    align-items: flex-end;
+    position: relative;
+    flex-grow: 4;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    width: 83px;
+    height: 83px;
+}
+
+.countdown__number {
+    color: inherit;
+    fill: currentColor;
+    text-anchor: middle;
+    position: relative;
+    font-size: 36px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+
+}
+
+.countdown__caption {
+    font-family: "PT Sans", sans-serif;
+    opacity: .54;
+    color: inherit;
+    fill: currentColor;
+    text-anchor: middle;
+    white-space: nowrap;
+
+}
+
+.countdown__separator{
+    width: 20px;
+    height: 81px;
+}
