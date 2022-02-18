@@ -1,16 +1,20 @@
 .why-choose-us-main {
-    margin: auto;
-    max-width: 1200px;
-}
-.why-choose-us-collections {
+    width: 100%;
+    max-width: 989px;
     box-sizing: border-box;
-    padding: 120px 0 60px;
 }
 .why-choose-us-collections-grid {
-    display: grid;
-    grid-template-columns: 50% 25% 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
+.why-choose-us-collections {
+    padding: 90px 0 60px;
+}
+.why-choose-us-shipping-return-materials-payment {
+    margin-top: 50px;
+}
+ 
 .why-choose-us-h3-text {
     font-family: 'Bebas Neue', sans-serif;
     color: #222323;
@@ -38,7 +42,7 @@
     font-weight: 400;
 }
 .why-choose-us-moto-and-services {
-    padding: 50px 0 120px;
+    padding: 50px 0 90px;
 }
 .why-choose-us-p-text-shipping-return-materials-payment {
     font-family: 'PT Sans' , sans-serif;
@@ -66,8 +70,7 @@
 .new-arrivals {
     background-image: url(../img/new-arrivals-block-picture.svg);
     background-size: cover;
-    max-width: 600px;
-    height: 375px;
+    height: 303px;
     margin: 0px 15px;
 }
 .horizontal {   
@@ -79,16 +82,14 @@
 .trainers {
     background-image: url(../img/trainers-block-picture.webp);
     background-size: cover;
-    max-width: 300px;
-    height: 375px;
-    margin: 0px 15px;
+    height: 303px;
+    margin: 50px 15px 0;
 }
 .hot_sale {
     background-image: url(../img/hot-sale-block-picture.webp);
     background-size: cover;
-    max-width: 300px;
-    height: 375px;
-    margin: 0px 15px;
+    height: 303px;
+    margin: 50px 15px 0;
 }
 .why-choose-us {
     text-align: center;
@@ -101,12 +102,7 @@
     background-color: #e0e0e0;
     margin: 15px auto;
 }
-.why-choose-us-shipping-return-materials-payment {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin-top: 50px;
-}
+
 .why-choose-us-shipping-return-materials-payment-icon {
     max-width: 50px;
     max-height: 50px;
@@ -115,7 +111,47 @@
 }
 .free-easy-eco-payment {
     text-align: center;
-    margin: 0px 15px;
+    margin: 50px 15px 0 15px;
     border: 2px solid #e0e0e0;
     padding: 30px 20px;
 }
+@media (min-width: 990px) {
+    .why-choose-us-main {
+        margin: auto;
+        max-width: 1200px;
+    }
+    .why-choose-us-collections-grid {
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+    }
+    .why-choose-us-shipping-return-materials-payment {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-top: 50px;
+    }
+    .why-choose-us-collections {
+        padding: 120px 0 60px;
+    }
+    .why-choose-us-moto-and-services {
+        padding: 50px 0 90px;
+    }
+    .new-arrivals {
+        background-image: url(../img/new-arrivals-block-picture.svg);
+        background-size: cover;
+        height: 375px;
+        margin: 50px 15px 0;
+    }
+    .trainers {
+        background-image: url(../img/trainers-block-picture.webp);
+        background-size: cover;
+        height: 375px;
+        margin: 50px 15px 0;
+    }
+    .hot_sale {
+        background-image: url(../img/hot-sale-block-picture.webp);
+        background-size: cover;
+        height: 375px;
+        margin: 50px 15px 0;
+    }
+}   
