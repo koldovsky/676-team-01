@@ -57,7 +57,7 @@ div > h3 {
 }
 
 .main-link-button-input:hover {
-  background-color: -var(--block-color);
+  background-color: Black;
   transition-duration: 0.6s;
 }
 
