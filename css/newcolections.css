@@ -1,11 +1,13 @@
 .advertising {
   background-image: url(../img/manwithbasketballformobile.jpg);
   width: 100%;
+  height: auto;
   max-width: 1200px;
   margin: 0 auto;
   font-family: Bebas Neue, cursive;
   background: cover;
-  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .advertising__main {
