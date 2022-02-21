@@ -5,7 +5,7 @@
     font-family: Bebas Neue,cursive;
     font-weight: 400;
     text-transform: none;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .subtitle_newfintess{
@@ -59,12 +59,16 @@
     background-color:#222323 ;
     transition-duration: 0.4s;
 }
-.newfitness_img{
-    position: absolute;
+
+.newfintesscollection_content{
+    background-image: url(/img/whitebanner.jpg);
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
 }
 
-.newfintesscontainer{
-    position: relative;
-    
-
+.newfintesscollection_content{
+    display: flex;
+    align-items: center;
+}
 
