@@ -65,10 +65,12 @@
     width: 100%;
     height: 100vh;
     -webkit-background-size: cover;
+    background-position: center center;
 }
 
 .newfintesscollection_content{
     display: flex;
     align-items: center;
 }
+
 
